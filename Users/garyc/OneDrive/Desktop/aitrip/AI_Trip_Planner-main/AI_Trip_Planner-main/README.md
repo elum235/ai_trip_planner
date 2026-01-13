@@ -58,4 +58,9 @@ Ready to execute and run code: spin up the server:
 5. spin up api: Open up a new terminal
    a. activate virtual environment bat file: \Users\garyc\OneDrive\Desktop\aitrip\env\Scripts\activate.bat
    b. uvicorn main:app --reload --port 8000
+
    # port is in streamlit
+
+   summarize:
+   a. streamlit run streamlit_app.py
+   b. uvicorn main:app --reload --port 8000
